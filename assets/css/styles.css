@@ -98,6 +98,7 @@ h5{
 @media only screen and (max-width: 768px) {
     .body{
         padding: 20px !important;
+        padding-top: 70px !important;
         height: auto !important;
     }
 }
