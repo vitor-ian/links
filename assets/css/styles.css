@@ -29,7 +29,10 @@ h5{
 
 .body{
     background-image: url(../img/background.png);
-    background: center cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     font-family: 'Gantari', sans-serif;
 
     height: 100vh;
