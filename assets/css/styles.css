@@ -1,4 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200;400;600;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h5{
+    color: white;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+:root{
+    --primary-color: #1085c1;
+    --bg-color: #202136;
+    --sc-bg-color: #2f3045;
+}
+
 .body{
     background-image: url(/assets/img/background.png);
     background: center cover;
+    font-family: 'Gantari', sans-serif;
+
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-princ{
+    width: 100%;
+    max-width: 600px;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: var(--bg-color) !important;
+    
+    color: white !important;
+    font-size: 20px !important;
+    padding: 20px !important;
+    border-radius: 10px;
+
+    transition: .6s ease !important;
+}
+
+.btn:hover{
+    background-color: var(--sc-bg-color) !important;
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 0 rgba(13, 109, 253, 0) !important;
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+.btn-01{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.btn-02{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.content-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .body{
+        padding: 0 20px !important;
+    }
 }
